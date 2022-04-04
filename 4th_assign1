@@ -1,0 +1,11 @@
+public class PersonalInfo
+ {
+public static void main(String args[])
+ {
+System.out.println("Name: ARUNA KUMARI VADAGA");
+System.out.println("Address: Kakinada");
+System.out.println("Qualification: M.Sc");
+System.out.println("Working exp: 3yrs");
+System.out.println("Contact Number: 07472773");
+}
+}
