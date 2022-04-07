@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class operations
+{
+public static void main(String args[])
+{
+double a,b;
+Scanner sn =new Scanner(System.in);
+System.out.println("Enter two values");
+a=sn.nextDouble();
+b=sn.nextDouble();
+System.out.printf("sum=%.2f\n",a+b);
+System.out.printf("subtraction=%.2f\n",a-b);
+System.out.printf("multiplication=%.2f\n",a*b);
+System.out.printf("division=%.2f\n",a/b);
+}
+}
