@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class get_data
+{
+public static void main(String args[])
+{
+int sno,phno;
+String sname;
+Scanner sn=new Scanner(System.in);
+System.out.println("Enter Student name=");
+sname=sn.nextLine();
+System.out.println("Enter Student number=");
+sno=sn.nextInt();
+System.out.println("Enter Student ph number=");
+phno=sn.nextInt();
+System.out.println("Given Student Details are");
+System.out.println("Student no= "+sno);
+System.out.println("Student name= "+sname);
+System.out.println("Student phno= "+phno);
+
+}
+}
