@@ -1,0 +1,28 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    int a,b,c,a1,b1,c1,a2,b2;
+	    
+		System.out.println("Enter any eight values");
+		Scanner sn =new Scanner(System.in);
+		a=sn.nextInt();
+		b=sn.nextInt();
+		c=sn.nextInt();
+		int bi1=Math.max(a,b);
+		int big1=Math.max(bi1,c);
+		a1=sn.nextInt();
+		b1=sn.nextInt();
+		c1=sn.nextInt();
+		int bi2=Math.max(a1,b1);
+		int big2=Math.max(bi2,c1);
+		a2=sn.nextInt();
+		b2=sn.nextInt();
+		
+		int b3=Math.max(a2,b2);
+		int big3=Math.max(big1,big2);
+		
+		
+		System.out.println("Maximum number is = "+Math.max(b3,big3));
+	}
+}
