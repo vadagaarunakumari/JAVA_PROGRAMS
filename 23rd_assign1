@@ -1,0 +1,28 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	    int n,i,a[];
+	    
+		System.out.println("Enter array size");;
+		Scanner sn=new Scanner(System.in);
+		n=sn.nextInt();
+		a=new int[n];
+	
+		System.out.println("Enter array elements");
+		for(i=0;i<n;i++)
+		  a[i]=sn.nextInt();
+		 	int max=a[0],min=a[0];
+		for(i=0;i<n;i++)  
+		  {
+		      if(min>a[i])
+		        min=a[i];
+		      if(max<a[i])
+		        max=a[i];
+		 
+		   }
+		  System.out.println("maximum element= "+max+"  ,  minimum element="+min);
+	}
+}
+
